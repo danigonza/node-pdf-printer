@@ -1,20 +1,17 @@
 {
-	"name": "<%= moduleName %>",
-	"version": "0.0.0",
-	"description": "",
+	"name": "node-pdf-printer",
+	"version": "0.0.1",
+	"description": "Create pdf usign pdflib",
 	"license": "MIT",
-	"repository": "<%= githubUsername %>/<%= moduleName %>",
+	"repository": "danigonza/node-pdf-printer",
 	"author": {
-		"name": "<%= name %>",
-		"email": "<%= email %>",
-		"url": "<%= website %>"
+		"name": "Danile Gonzalez",
+		"email": "danigonza86@gmail.com"
 	},
 	"engines": {
-		"node": ">=4"
+		"node": ">=8"
 	},
-	"scripts": {
-		"test": "xo && ava"
-	},
+	"scripts": {},
 	"files": [
 		"index.js"
 	],
@@ -22,8 +19,5 @@
 		""
 	],
 	"dependencies": {},
-	"devDependencies": {
-		"ava": "^0.20.0",
-		"xo": "^0.18.2"
-	}
+	"devDependencies": {}
 }
